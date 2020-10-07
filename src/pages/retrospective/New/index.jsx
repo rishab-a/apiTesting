@@ -63,7 +63,7 @@ class RetrospectiveNew extends Component {
         ...this.state,
         columnid: e.target.id
       };
-      axios.post('http://localhost:5000/Retrospective/New', payload);
+      axios.post('/Retrospective/New', payload);
     } else {
       this.setState({ [e.target.id]: e.target.value });
     }
