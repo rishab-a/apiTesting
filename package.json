@@ -28,7 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "server": "nodemon server.js"
   },
   "proxy": "http://localhost:5000",
   "eslintConfig": {
